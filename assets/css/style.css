@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/* removed the header class and used the header selector instead */
 header {
     height: 800px;
     width: 100%;
@@ -76,6 +77,8 @@ p {
 
 }
 
+
+/* condensed redundant classes into the 'content-style' class to reduce bulk code */
 .content-style{
     margin-bottom: 20px;
     padding: 50px;
@@ -95,6 +98,7 @@ p {
 }
 
 
+/* removed redundant classes and merged them into 'benefits' */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -123,7 +127,7 @@ p {
 
 
 
-
+/* removed the .footer class and used the footer selector instead */
 footer {
     padding: 30px;
     clear: both;
